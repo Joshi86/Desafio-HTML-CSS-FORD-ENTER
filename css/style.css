@@ -1,0 +1,472 @@
+/*-------------------------------------------------------------------------------------------------
+                                    Elementos da página, Menu
+--------------------------------------------------------------------------------------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	font-size: 100%;
+	margin: 0;
+    padding: 0;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+.ford-logo img {
+	width: 65%; 
+}
+
+.links-menu {
+	width: 85%;
+	padding: 10px;
+	letter-spacing: 1px;
+	display: flex;
+	justify-content: center;
+}
+
+.links-menu nav div {
+	display: inline-block;
+	margin-right: 40px;
+	
+}
+
+.link1 :hover {
+	font-size: 20px;
+	color: red;
+}
+
+.link2 :hover {
+	font-size: 20px;
+	color: red;
+}
+
+.link3 :hover {
+	font-size: 20px;
+	color: red;
+}
+
+
+header {
+	color: white;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .logo {
+	height: 20px;
+}
+
+nav a {
+	color: #1b357e;
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center; 
+	justify-content: center; 
+	margin: 0 1rem;
+	margin-right:3rem;
+	gap: 2rem;
+}
+
+/*-----------------------------------------------------------------------------------------------------
+                                             HOME
+------------------------------------------------------------------------------------------------------*/
+											 
+.car-img-index {
+	width: 80%;
+	padding: 25px;
+	text-align: center;
+}
+
+.car-img-index img {
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+    justify-content: center;
+	height: auto;
+}
+
+.car-img-index p {
+	font-style: italic;
+	font-size: larger;
+}
+
+.car-img-index p a {
+	text-decoration: none;
+	color: #140B92;
+}
+
+main {
+	flex: 1;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/*-------------------------------------------------------------------------------------------------
+                                        Contato            
+--------------------------------------------------------------------------------------------------*/
+
+.contato-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    gap: 2rem;
+    padding: 2rem;
+}
+
+form {
+	height: 730px;
+}
+
+.form-box {
+	background-color: #fff;
+	width: 100%;
+	max-width: 450px;
+	padding: 20px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 0 12px rgba(0,0,0,0.1);
+	border-radius: 8px;
+    margin-left: 890px;
+	margin-top: 115px;
+}
+
+.form-box label {
+	color: #555;
+}
+
+.form-box input:focus,
+.form-box textarea:focus {
+	outline: none;             
+	border: 2px solid #a50a0a;  
+	box-shadow: 0 0 5px #140101;
+	background-color: #f0f8ff;  
+}
+
+.form-box input,
+.form-box textarea {
+	width: 100%;
+	padding: 0.65rem;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	outline: none;
+	transition: border 0.3s;
+}
+
+#mensagem {
+	resize: none;
+}
+
+.form-box textarea {
+	height: 100%;
+}
+
+.image-box img {
+	width: 100%;
+	max-width: 330px;
+	border-radius: 8px;
+	margin-left: 310px;
+	margin-top: 50px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.contato_text {
+	color: #555;
+}
+
+.botao_enviar {
+    background-color: #1351d8;
+    color: black;
+	border: none;
+	border-radius: 8px;
+	width: 100%;
+	justify-content: center;
+}
+
+.botao_enviar:hover {
+	color: red;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+/*-------------------------------------------------------------------------------------------------
+                                        Lançamento
+--------------------------------------------------------------------------------------------------*/
+
+.video_ford {
+	background-color: black;
+}
+
+.tabelas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.conteudo_tabelas {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	gap: 40px;
+	overflow-x: auto;
+	width: 100%;
+}
+
+.info_img {
+	cursor: pointer;
+}
+
+button {
+	background-color: #1351d8;
+	display: block;
+	color: white;
+	border: none;
+	cursor: pointer;
+	margin: 0 auto;
+	width: 20%;
+	padding: 10px 20px;
+    border-radius: 13px;
+    font-size: 16px;
+}
+
+button:hover {
+	color: red;
+	font-size: large;
+}
+.input_checkbox {
+	width: 20px;     
+    height: 20px;     
+    accent-color: #6e0b0b; 
+    margin-right: 15px; 
+	cursor: pointer;
+}
+
+/*-------------------------------------------------------------------------------------------------
+                                        Footer
+--------------------------------------------------------------------------------------------------*/
+
+footer {
+	background-color: #1b357e;
+	color: white;
+	width: 100%;
+	height: 50px;
+	padding: 17px;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	text-align: center;
+    position: static;
+}
+
+.imgfooter {
+	margin-left: 80%;
+}
+
+.face-footer :hover {
+	width: 96%;
+}
+
+.insta-footer :hover {
+	width: 96%;
+}
+
+.yt-footer :hover {
+	width: 96%;
+}
+
+/*-------------------------------------------------------------------------------------------------
+                                        Responsividade
+--------------------------------------------------------------------------------------------------*/
+
+/*--------------------------*/
+@media (max-width: 1024px) {
+/*---------Index---------*/
+.car-img-index {
+		width: 110%;
+}
+/*---------Contato---------*/
+.image-box img{
+		margin-left: 3%;
+}
+
+form {
+		height: 1000px;
+}
+
+.form-box {
+		margin-left: 70%;
+}
+/*---------Footer---------*/
+.footer-index{
+	position: fixed;
+}
+
+footer {
+		position: static;
+		bottom: 0;
+		width: 100%;
+}
+	
+.imgfooter {
+		margin-left: 75%;
+}	
+}
+
+/*--------------------------*/
+@media (max-width: 768px) {
+/*---------Menu---------*/
+header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.ford-logo img {
+	display: block;
+	margin: 0 auto;
+}
+
+nav a {
+	margin-right: 0rem;
+}
+
+.links-menu {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links-menu nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin: 0 auto;
+}
+
+.links-menu nav div {
+    margin: 10px;
+	flex-direction: column;
+    align-items: center;
+}
+/*---------Index---------*/
+.car-img-index { 
+    width: 95%;
+    padding: 15px;
+	flex-direction: column;
+    align-items: center;
+}
+/*---------Contato---------*/
+.image-box img {
+	width: 60%;
+    margin: 0 auto;
+	flex-direction: column;
+    align-items: center;
+}
+
+form {
+	height: 1120px;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-box {
+	display: flex;
+	width: 50%;
+	margin-top: 35%;
+	flex-direction: column;
+	justify-content: center;
+}
+/*---------Footer---------*/
+.footer-index{
+	position: fixed;
+}
+
+footer { 
+	align-items: center;
+	justify-content: space-between;
+	position: static;
+	bottom: 0;
+	bottom: 0%;
+	width: 100%;
+
+}
+
+footer div {
+    margin: 10px 0;
+}
+
+.imgfooter {
+	margin-left: 0%;
+}
+}
+
+/*--------------------------*/
+@media (max-width: 480px) {
+/*---------Menu---------*/
+nav a {
+    font-size: 0.9rem;
+}
+/*---------Index---------*/
+.car-img-index p {
+    font-size: 1rem;
+    padding: 0 10px;
+}
+/*---------Lançamento---------*/
+button{
+	width: 100%;
+	align-items:center;
+}
+/*---------Contato---------*/
+.image-box img {
+	margin-left: 25%;
+}
+
+.form-box {
+	display: flex;
+	width: 70%;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 50%;
+	margin-top: 128%;
+	padding: 15px;
+}
+/*---------Footer---------*/
+.imgfooter {
+	width: 20%;
+	margin-left: 10%;
+}
+
+.footer-index{
+	position: fixed;
+}
+
+footer { 
+	align-items: center;
+	justify-content: space-between;
+	position: static;
+	bottom: 0;
+	bottom: 0%;
+	width: 100%;
+}
+}
+

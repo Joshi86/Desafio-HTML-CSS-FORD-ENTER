@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - FORD</title>
+    <link rel="icon" type="image/png" href="img/icon-ford.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  
+    <header>
+
+<!-- Logo da página -->
+
+      <div class ="ford-logo" logo-ford-256>
+        <a href="index.html">
+          <img src="img/logo-ford-256.png" alt=""> </a>
+      </div>
+
+<!-- Textos de navegação -->
+
+         <div class="links-menu">
+            <nav>
+
+                <div class="link1">
+                <a href="index.html" >Home</a>
+                </div>
+                
+                <div class="link2">
+                <a href="lançamento.html" >Lançamento</a>
+                </div>
+
+                <div class="link3">
+                <a href="contato.html" >Contato</a>
+                </div>
+
+            </nav>
+          </div>
+
+<!-- Aréa do Formulário -->
+          
+     </header>
+     <hr>
+     
+       <form action="/enviar" method="post">
+
+        <div class="image-box">
+              <img src="img/xls 2.2 diesel.jpg" alt ="">
+        </div>
+          
+        <div class="form-box">
+
+          <h3 style="font-style: italic;">Sobre Você</h3>
+          <br>
+
+          <label for="nome"></label>
+          <input type="text" placeholder="Nome*" id="nome" name="nome" required><br><br>
+
+          <label for="sobrenome"></label>
+          <input type="text" placeholder="Sobrenome*" id="sobrenome" name="sobrenome" required><br><br>
+          
+          <label for="email"></label>
+          <input type="email" placeholder="E-mail*" id="email" name="email" required><br><br>
+          
+          <label for="cpf"></label>
+          <input type="text" placeholder="CPF*" id="cpf" name="cpf" required><br><br>
+
+          <label for="Telefone"></label>
+          <input type="text" placeholder="Telefone*" id="telefone" name="telefone" required><br><br>
+           
+        
+          <label for ="tipo_contato">Selecone o tipo de contato</label>
+          <select id="tipo_contato" name="tipo_contato">
+            <option value="Elogio">Elogio</option>
+            <option value="Reclamação">Reclamação</option>
+            <option value="Solicitação">Solicitação</option>
+          </select><br><br>
+
+          <div class="mensagem">
+          <label for="Mensagem"></label>
+          <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem...*" rows="5" required></textarea>
+          </div><br>
+
+          <label for="contato">Como deseja ser contatado?:</label>
+          <select id="contato" name="contato">
+            <option value="Telefone">Telefone</option>
+            <option value="Whatsapp">Whatsapp</option>
+            <option value="Email">E-mail</option>
+          </select><br><br><br>
+            
+          <input style="font-weight: bold;" class="botao_enviar" type="button" value="Enviar">
+
+        </div>
+       
+        </form>
+      
+<!-- Foooter -->
+
+<footer>
+        <p style="font-weight: bold;" class="sociais-footer">
+            Redes Sociais  
+        </p>
+
+            <div class="face-footer">
+            <a href="https://www.facebook.com/ford/">
+              <img src="img/facebook-50.png" width="30px" alt=""></a>
+            </div>
+
+            <div class="insta-footer">
+            <a href="https://www.instagram.com/ford/">
+              <img src="img/instagram-logo-50.png" width="30px" alt=""></a>
+            </div>
+
+            <div class="yt-footer">
+            <a href="https://www.youtube.com/@ford" target="_blank">
+              <img src="img/youtube-squared-50.png" width="30px" alt=""></a>
+            </div>
+
+                <img class="imgfooter" src="img/ford-96.png" alt=""></a>
+     
+</footer>
+
+</body>
+
+</html>
